@@ -47,7 +47,7 @@
             android:textColor="@color/brownDark" />
 
         <ImageView
-            android:id="@+id/image_view_question"
+            android:id="@+id/image_view_questionS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -66,6 +66,7 @@
         android:text="@string/share_question_text"
         android:textColor="@android:color/white"
         android:textSize="20sp"
+        android:onClick="onShareQuestionClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
